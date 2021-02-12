@@ -1,0 +1,16 @@
+{
+  "name": "html-tags",
+  "version": "1.0.0",
+  "description": "Tarea para Program 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tags",
+    "tarea",
+    "programacion"
+  ],
+  "author": "Joseph Salen <jsalen.91@gmail.com>",
+  "license": "MIT"
+}
