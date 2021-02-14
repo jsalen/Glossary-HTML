@@ -81,7 +81,7 @@ h1 {
     width: 85%;
     height: 100vh;
     margin-left: 15%;
-    background-color: var(--just-white);
+    background-color: var(--off-white);
 }
 
 .container__glossary {
@@ -100,9 +100,7 @@ h1 {
     background-color: var(--google-border);
 }
 
-.container__glossary table:nth-child(even) {
-    background-color: var(--off-white);
-}
+
 
 table th, td {
     padding: 10px 0;
