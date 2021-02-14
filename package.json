@@ -2,7 +2,7 @@
   "name": "html-tags",
   "version": "1.0.0",
   "description": "Tarea para Program 4",
-  "main": "index.js",
+  "main": "src/assets/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
