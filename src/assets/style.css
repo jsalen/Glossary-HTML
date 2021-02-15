@@ -88,11 +88,12 @@ h1 {
     padding-right: 10px;
     height: 35px;
     font-size: var(--secondary-text-size);
-    background-color: var(--grey);
+    font-weight: 400;
+    background-color: var(--google-border);
 }
 
 .container__header > * {
-    padding-top: 8px;
+    padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
     
