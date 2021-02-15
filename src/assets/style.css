@@ -78,9 +78,42 @@ h1 {
 .container {
     display: inline-block;
     width: 85%;
-    
     margin-left: 15%;
     background-color: var(--off-white);
+}
+
+.container__header {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    height: 35px;
+    font-size: var(--secondary-text-size);
+    background-color: var(--grey);
+}
+
+.container__header > * {
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.twitter:hover {
+    background-color: #00acee;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.github:hover {
+    background-color: #a9a8a8;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.linkedin:hover {
+    background-color: #0072b1;
+    transition: all 1s ease;
+    cursor: pointer;
 }
 
 .container__glossary {
@@ -132,7 +165,11 @@ table td:nth-child(even) {
     .container {
         width: 100%;
         margin: 0;
-        padding: 10px;
+        
+    }
+
+    .container__header {
+        height: 50px;
     }
 
     .container__glossary {
