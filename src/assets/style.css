@@ -36,12 +36,10 @@ a:visited {
     color: black;
 }
 
-
-
 h1 {
     width: 100%;
     margin: 8rem auto;
-    font-size: 2.8rem;
+    font-size: var(--primary-text-size);
     font-weight: 700;    
     text-align: center;
 }
@@ -49,9 +47,10 @@ h1 {
 .header__title {
     width: 100%;
     height: 80px;
-    font-size: 2rem;
     padding-top: 35px;
     margin: 0 auto;
+    font-size: 2rem;
+    font-weight: 700;    
     text-align: center;
 }
 
@@ -66,20 +65,20 @@ h1 {
 
 .header__tag-list li {
     height: 30px;
-    padding: 10px 0;
+    padding: 6px 0;
     padding-left: 20px;
     font-size: var(--secondary-text-size);
 }
 
 .header__tag-list li:hover {
-    background-color: #999999;
+    background-color: var(--grey);
     cursor: pointer;
 }
 
 .container {
     display: inline-block;
     width: 85%;
-    height: 100vh;
+    
     margin-left: 15%;
     background-color: var(--off-white);
 }
@@ -91,7 +90,6 @@ h1 {
 
 .container__glossary table {
     width: 100%;
-    border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
 }
@@ -100,12 +98,9 @@ h1 {
     background-color: var(--google-border);
 }
 
-
-
 table th, td {
     padding: 10px 0;
     border: 1px solid var(--google-border);
-    text-align: center;
 }
 
 table td:nth-child(odd) {
@@ -118,6 +113,29 @@ table td:nth-child(even) {
     border-left: none;
 }
 
-table th:nth-child(even), table td:nth-child(even) {
-    padding-right: 40px;
+@media screen and (max-width: 1024px) {
+    header {
+        width: 25%;
+    }
+
+    .container {
+        width: 75%;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .container__glossary {
+        margin: 10px;
+    }
 }
